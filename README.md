@@ -2,5 +2,5 @@
 Codes for the Course Data Structures and Algorithms in C
 ***
 Name : Sandeep Payili \
-ID : B171452
+ID   : B171452
 ***
