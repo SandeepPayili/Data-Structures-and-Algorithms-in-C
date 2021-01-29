@@ -1,0 +1,195 @@
+Lectures - [1,4]
+
+	intro - [1,2]
+	Stack - [3,10]
+	Queue - [11,18]
+
+Lecture -5 
+
+	Sir Written Queue Program -[19,19]
+
+Lecture - 6
+
+	1.	Why to Change to Postfix?
+			 	Inorder to understand for computer to calclute.
+				i.e., higher operation may be at middle of the expression so it must be going forward to do higher operation and coming back to do some lower operation.
+
+		So, To overcome this postfix will come into picture.
+
+	2.	Excercise :
+
+			QUestion  :  A*B/C-E/F*G+K-L+M^P
+
+			Solution  :  AB*C/EF/G*-K+L-MP^+
+
+	3.  infix to postfix conversion using stack without brackets - [20,20]
+
+Lecture - 7
+
+	infix to postfix conversion complete code - [21,21]
+
+Lecture - 8
+	
+	1. Linked List Introduction
+	2. Inserting at Beginning
+	3. Inserting at End
+
+Lecture - 9
+	
+	1. Searching Given Key in Linked List
+	2. Inserting at Given Position in Linked List
+	3. Removing node by given Key(Element)
+
+Lecture - 10
+
+	1. Removing node by given Key(Element)  - Detail Explanation.
+	2. Delete Node by Given Position.
+	3. Insert at middle by counting nodes
+	4. Removing at middle
+	5. Removing before element 
+	6. Removing after element
+
+
+Lectures -> [8,9,10]  = [22,22]
+
+Lecture - 11
+
+	1.Stack and queue Using Linked List
+	2.Linked List can be made as Stack by adding and deleting node at same end i.e., either front or back.
+	3.Linked List can be made as Queue by adding and deleting node at opposite ends. i.e., ( add at front and remove at back ) or ( add at back and remove at front)
+
+Lecture -> 11 code - [23,26]
+
+
+Lecture - 12
+	1.Double Linked List Introduction
+	2.Inserting at Beginning
+	3.Inserting at End
+	4.Insert at Given Position
+	5.Insert node after given key 
+	6.Remove First Node
+	7.Remove Last Node
+	8.Removing at Given Position
+	9.functions using call by value and call by reference
+	10.stack and queue using double linked list
+
+Lecture -> 12 code - [27,31]	
+
+
+Lecture - 13
+
+    1.Circular LInked List INtroduction
+    2.insert new node at end
+    3.insert new node at beginning
+    4.Remove Last node
+    5.remove first node
+
+
+Lecture -> 13 code - [32,32]	
+
+Lecture - 14 (Introduction to binary trees)
+
+		1.why we need trees ?
+			usually we use data structures to store and retrive data efficiently.if we have arrray of 1,00,000 finding element is very time taking process.
+			if we use binary search array should be sorted either in ascending or descending, if at all one element is added to sorted array again we need to sort it is also 
+			time taking process.
+			so, we used tress to overcome above problems.
+			(ex: storing medicines when load comes at shops will have proper arrangement to retrives medicine fast.)
+
+		2.INsert in binary tree  (level order)
+
+		(bonus : printing binary tree in 1D and 2D)
+
+Lecture -> 14 code - [33,33]
+
+
+Lecture  - 15 (Binary tree operations )
+
+		1.priting binary tree in 1D
+		2.counting no. of Nodes
+		3.Searching element 
+		4.Deleting particular node (finding element node and leaf node and parent node of leafnode)
+
+		(bonus : deleting given element node in single traversal only)
+
+Lecture -> 15 code - [34,34]
+
+
+Lecture - 16 (Binary Tree Implementation)
+
+		>>>>    written code (main.c) (inserting and printing in 1D) (using Queue)
+
+
+Lecture -> 16 code - [main,main]
+
+Lecture - 17 (Binary Search Tree )
+
+	 > to increase efficiency in searching (by placing itself we will put smaller on left side and greater on right side)
+
+
+	 1. inserting new node in binary Search Tree.
+	 2. Finding (searching)element
+	 3. Number of nodes (using queue)
+	 4. printing (level order) (using queue)
+	 5. Deleting node by given element ( replacing min element in right sub tree and max element in  left sub tree i.e., in order successor and in order predecessor)
+
+Lecture -> 17 code - [35,35]
+
+Lecture - 18 (Tree Traversals)
+			>> writing three orders in linear from graph
+			1.Pre order
+			2.post order
+			3.in order
+			4.constructing tree with given (linear)orders (inorder + post and  inorder + pre)
+			5.In Binary Search Tree if we go in  order traversal we get ascending order.
+
+			(1.bubble sort 2.selection sort 3.insertion sort 4.quick sort  5.merge sort   6.binary search)
+
+
+Lecture -> 18 code - [36,38]
+
+Lecture - 19 (Quick Sort and two way Merging )
+			1.Quick sort (pivot as first element) 
+
+				>>> Quick will again sort  sorted array
+				>>> (selecting pivot as first or last is not efficent) ~ O(n^2)
+				>>> selecting pivot as middle value is good pratice ~ O(nlog(n))
+			2.two way Merging
+
+Lecture -> 19 code - [39,40]
+
+Lecture - 20 
+
+		1.merge sort
+		2.bubble sort(brut force and little optimized)((selecting maximum every time))
+		3.selection sort(selecting minium every time)
+		4.INsertion sort (select current element and insert in sorted array to get new soerted array)
+
+Lecture -> 20 code - [41,44]
+
+Lecture - 21
+		
+		1.graph representation (Adjacency Matrix and Adjacency List (linked lists))
+		2.Breadth First Search
+		3.Depth First Search
+
+Lecture -> 21 code - [45,46]
+
+Lecture - 22
+		>>> (Binary HEAP)
+
+		heap is a complete binary tree
+		max heap (complete binary tree having each node value greater than or equal to its descendents)
+		min heap 
+
+		// can be implemented by trees and arrays
+		>>> heap sort ::: construct heap and delete one by one we will get sorted
+		>>> head sort ::: O(log n ) for insertion and deletion
+
+		1.Min Heap
+		2.Max Heap
+
+		>>> For Insertion : percolate up
+		>>> For Deletion : percolate down
+
+Lecture -> 22 code - [47,50]
